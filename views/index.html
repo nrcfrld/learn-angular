@@ -19,7 +19,8 @@
 			{{ title }} <br />
 			{{ book.author }} <br />
 			{{ book.title }} <br />
-			{{ book.price }} <br />
+			{{ book.price | currency }} <br />
+			{{ book.pubdate | date }} <br />
 		</div>
 
 		<script src="../js/angular.min.js"></script>
